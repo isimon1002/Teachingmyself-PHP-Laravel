@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('second', function () {
     return view('second');
 });
+
+Route::get('seco', function () {
+    return view('hello');
+});
+
+Route::get('hello', 'HelloController@index');
